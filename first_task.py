@@ -16,3 +16,15 @@ def max_of_two( a, b ):
 def max_of_three( a, b, c ):
     return max_of_two( a, max_of_two( b, c ) )
 print(max_of_three(10, 20, 30))
+
+
+#ChatGPT option
+def find_max(a, b, c):
+    max_num = a
+    if b > max_num:
+        max_num = b
+    if c > max_num:
+        max_num = c
+    return max_num
+
+print(find_max(50, 10, 3))
