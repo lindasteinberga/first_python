@@ -1,2 +1,7 @@
-print("Hello World!")
-print("ony hello")
+x = "Hello World"
+print(x[-2])
+
+
+
+
+
